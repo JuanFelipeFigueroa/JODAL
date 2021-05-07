@@ -1,0 +1,106 @@
+#ingreso,
+#registro {
+	width: 100%;
+	height: 100%;
+}
+
+fieldset {
+	/*aplica para ambos formularios*/
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #000;
+}
+
+legend {
+	/*aplica para ambos formularios*/
+	height: 10%;
+	color: white;
+	margin: auto;
+	border-radius: 10px;
+}
+
+#tipo_usuario, #tipo_usuario_r{
+	width: 80%;
+	height: 7vh;
+}
+
+#contenido {
+	/*aplica para ambos formularios*/
+	width: 100%;
+	height: 90%;
+	align-content: space-around;
+}
+
+label {
+	/*aplica para ambos formularios*/
+	width: 80%;
+	color: #fff;
+	font-size: 14px;
+}
+
+input {
+	/*aplica para ambos formularios*/
+	width: 80%;
+	height: 7vh;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#btnIngresar, #btnRegistrar {
+	width: 60%;
+	height: auto;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+	text-decoration: none;
+	margin: 30px 0px;
+}
+
+#btnIngresar:hover {
+	color: #fff;
+	box-shadow: 0px 0px 10px #2C7873;
+}
+
+#mensaje {
+	width: 100%;
+	height: 5vh;
+	color: #BFD6D5;
+	border-top: solid 3px #000;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#registrate {
+	width: 50%;
+	height: 7vh;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
+
+#registrate:hover {
+	box-shadow: 0px 0px 5px #2C7873;
+}
+
+/**********************************************************************************/
+
+/*#btnRegistrar {
+	width: 60%;
+	color: white;
+	font-size: 1rem;
+	border: none;
+	border-radius: 10px;
+}*/
+
+#btnRegistrar:hover {
+	color: #fff;
+	box-shadow: 0px 0px 10px #2C7873;
+	/* transition: .5s;
+	cursor: pointer; */
+}

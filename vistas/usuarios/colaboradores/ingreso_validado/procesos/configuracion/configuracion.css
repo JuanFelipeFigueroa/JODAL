@@ -1,0 +1,147 @@
+*{margin: 0px; box-sizing: border-box;	font-family: 'Ubuntu', sans-serif;}
+
+/**{border: solid red 2px;}	*/
+
+/*
+#0d2422;
+*/
+
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;}
+
+	#ladoIzquierdo{
+		width: 20%;
+		height: 90%; background-color: #BFD6D5;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: space-around;}
+
+		#foto{
+			width: 65%;
+			height: 30%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: space-around;
+			border: groove #2C7873 3px;}
+
+			#foto img{
+				width: 100%;
+				height: 100%;}
+		
+		#cambiarFoto{
+			width: 70%;
+			height: 10%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: space-around;}
+			
+			#cambiarFoto span{
+				width: 90%;
+				padding: 10px 0px;
+				text-align: center;
+				color: white;
+				font-size: 16px;
+				font-weight: bold;
+				background-color: #2C7873;
+				cursor: default;}
+
+			#cambiarFoto input {
+				width: 70%;
+				height: auto;}
+
+		#logo{
+			width: 70%;
+			height: 25%;}
+
+			#logo img{
+				width: 100%;
+				height: 100%;}	
+
+		#guardar{
+			width: 80%;
+			padding: 10px 0px;
+			text-align: center;
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			background-color: #2C7873;}	
+
+			#guardar:hover{
+				box-shadow: 0px 0px 10px #2C7873;
+				transition: .6s;
+				cursor: pointer;}
+
+	#ladoDerecho{
+		width: 70%;
+		height: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: space-around;}				
+
+		
+		#titulo{
+			width: 90%;
+			padding: 20px 0px;
+			background-color: #0d2422;
+			color: white;
+			font-weight: bold;
+			text-align: center;
+			font-size: 18px;}
+
+		#contenido{
+			width: 90%;
+			height: 90%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: space-around;}	
+
+			#datosUsuario{
+				width: 100%;
+				height: 90%;
+				padding: 20px;
+				background-color: #BFD6D5;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				align-content: space-around;}
+				
+				#datosUsuario span{
+					width: 25%; border-bottom: solid black 1px;
+					align-self: center;}
+
+				.datos{
+					width: 51%;
+					font-size: 18px;
+					padding-left: 15px;}
+
+			#botones{
+				width: 100%;
+				height: 10%;
+				background-color: #0d2422;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				align-content: space-around;}	
+
+				.btn{
+					width: 20%;
+					height: 70%;
+					background-color: #4D5655;
+					border: none;
+					color: white;
+					font-size: 16px;
+					font-weight: bold;}
+
+					.btn:hover{
+						background-color: #2C7873;	
+						transition: .6s;
+						cursor: pointer;}

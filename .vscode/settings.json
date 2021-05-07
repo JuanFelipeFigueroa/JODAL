@@ -1,0 +1,4 @@
+{
+    "editor.renderIndentGuides": true,
+    "files.autoSave": "onFocusChange"
+}

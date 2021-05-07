@@ -1,0 +1,53 @@
+*{margin: 0px; box-sizing: border-box;	font-family: 'Ubuntu', sans-serif;}
+
+/*************************************************************************************************************************/
+#botones{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	flex-wrap: wrap;}
+
+	.btn{
+		width: 50%;
+		height: 100%;
+		background-color: #0d2422;
+		color: white;
+		font-weight: bold;
+		font-size: 3vh;
+		border: none;
+		border-right: solid 2px #000;}
+
+		.btn:hover{
+			background-color: #BFD6D5; 
+			color: #000;
+			cursor:pointer;
+			transition: .6s;}
+/*************************************************************************************************************************/	
+/*************************************************************************************************************************/
+#cerrarSesion{
+	width: 15%;
+	height: 100%;
+	border: none;
+	background-color: #0d2422;
+	color: white;
+	font-weight: bold;
+	font-size: 2.5vh;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 3.3vh;}
+
+	#cerrarSesion:hover{
+		background-color: firebrick;
+		transition: .6s;
+		cursor:pointer;}
+/*************************************************************************************************************************/
+/*************************************************************************************************************************/
+#vistas{
+	width: 100%;
+	height: 95vh;
+	background-color: #fff;}
+	
+	.vista{width: 100%;	height: 100%}
+
+	iframe{width: 100%; height: 100%;}					

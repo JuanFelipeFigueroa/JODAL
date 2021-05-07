@@ -1,0 +1,165 @@
+*{margin: 0px; box-sizing: border-box;	font-family: 'Ubuntu', sans-serif;}
+/**{border: solid red 2px;}*/
+body{
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;}
+
+#seccionServicios{
+	width: 70%;
+	height: 90%;
+	background-color: white;
+	border: groove #2C7873 5px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;}
+
+	#cuerpo{
+		width: 90%;
+		height: 90%;
+		background-color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start; overflow-y: scroll;}	
+
+		.reserva{
+			width: 90%;
+			height: auto;
+			background-color: #BFD6D5;
+			margin: 10px 0px;
+			padding: 10px;
+			border-bottom: solid #0d2422 3px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;}
+
+			.datosReserva{
+				width: 70%;
+				height: auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;}
+
+				.noombreCliente{
+					width: 100%;
+					background-color: #0d2422;
+					padding: 7px 0px;
+					text-align: center;
+					align-self: center;
+					color: white;
+					font-weight: bold;
+					font-size: 16px;}
+
+				.servicios{
+					width: 100%;
+					padding: 5px 0px;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;}	
+
+					.servicio{
+						width: 30%; 
+						align-self: center;
+						background-color: #2C7873;
+						padding: 5px 0px;
+						margin-bottom: 5px;
+						text-align: center;
+						color: white;
+						font-weight: bold;}
+
+			#infoImportante{
+				width: 25%;
+				height: auto;
+				align-self: center;}
+
+				.fecha, .duracion, .precio{
+					width: 95%;
+					padding: 3px 0px;
+					margin-bottom: 5px;
+					background-color: #2C7873;
+					color: white;
+					text-align: center;
+					font-weight: bold;
+					font-size: 18px;}
+
+#busqueda{
+	width: 25%;
+	height: 90%;
+	background-color: #BFD6D5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;}
+
+	#titulo{
+		width: 90%;
+		padding: 10px 0px;
+		background-color: #0d2422;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		text-align: center;}
+
+	#rangos{
+		width: 90%;
+		height: 30%;
+		padding: 5px;}	
+
+		#hoy,#ayer,#iniSemana,#iniMes{
+			width: 100%;
+			padding: 5px;
+			display: block;
+			margin-bottom: 5px;
+			background-color: #2C7873;
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 14px;
+			text-align: center;
+			align-self: center;}
+
+		#hoy:hover,#ayer:hover,#iniSemana:hover,#iniMes:hover {
+			text-decoration: underline;}
+
+	#logo{
+		width: 60%;
+		height: 20%;
+		margin: auto;}	
+
+		#logo img{
+			width: 100%;
+			height: 100%;}
+
+	#buscar{
+		width: 90%;
+		height: 10%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: center;}			
+		
+		#textoBusqueda{
+			width: 60%;
+			height: 80%;
+			padding-left: 10px;}
+
+		#btnBusqueda{
+			width: 30%;
+			height: 80%;
+			background-color: #4D5655;
+			color: white;
+			border: none;
+			font-weight: bold;
+			font-size: 16px;}
+
+			#btnBusqueda:hover{
+				background-color: #2C7873;
+				transition: .6s;
+				cursor: pointer;}

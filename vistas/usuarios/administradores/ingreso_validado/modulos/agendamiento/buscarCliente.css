@@ -1,0 +1,78 @@
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#divBusqueda {
+	width: 70%;
+	height: 7%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#buscar {
+	width: 40%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#numeroBusqueda {
+	width: auto;
+	height: 90%;
+	font-weight: normal;
+	align-self: center;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+#btnBuscar {
+	width: auto;
+	height: 90%;
+	background-color: #4D5655;
+	color: white;
+	font-size: 16px;
+}
+
+#btnBuscar:hover {
+	background-color: #2C7873;
+}
+
+#encontrado {
+	width: 50%;
+	height: 80%;
+	display: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#encontrado span {
+	width: auto;
+	padding: 10px 10px;
+	background-color: #2C7873;
+	color: white;
+	text-align: center;
+}
+
+#encontrado input {
+	width: 60%;
+	height: 100%;
+	text-align: center;
+}
+
+#contenidoAgendamiento {
+	width: 100%;
+	height: 93%;
+	/*border-top: solid #2C7873 2px;*/
+	display: none;
+}
+
+iframe {
+	width: 100%;
+	padding: 10px 0px 0px 10px;
+	height: 100%;
+}

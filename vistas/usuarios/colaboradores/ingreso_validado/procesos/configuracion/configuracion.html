@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="configuracion.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="ladoIzquierdo">
+		<div id="foto">
+			<img src="../../fotos de perfil/perfil.jpg" alt="foto">
+		</div>
+		<div id="cambiarFoto">
+			<span>CAMBIAR FOTO</span>
+			<input type="file">
+		</div>
+		<div id="logo">
+			<img src="../../../../../logos/original.png" alt="logo">
+		</div>
+		<div id="guardar">GUARDAR CAMBIOS</div>
+	</div>
+
+	<div id="ladoDerecho">
+		<div id="titulo">DATOS PERSONALES</div>
+		<div id="contenido">
+			<div id="datosUsuario">
+				<span>Nombre</span>
+				<input type="text" class="datos" value="ANDRES FELIPE SUAREZ">
+				<span>Número de Identificación</span>
+				<input type="number" class="datos" value="1032499801" disabled="0">
+				<span>Fecha de Nacimiento</span>
+				<input type="date" class="datos" value="10/02/1995" disabled="0">
+				<span>Correo</span>
+				<input type="email" class="datos" value="andresfelipesuarez123@gmail.com">
+				<span>Telefono</span>
+				<input type="tel" class="datos" value="3002540486">
+				<span>Contraseña</span>
+				<input type="password" class="datos" value="mypassword123">
+				<span>Repita su Contraseña</span>
+				<input type="password" class="datos" value="mypassword123">
+			</div>
+			<div id="botones">
+				<button class="btn">EDITAR</button>
+				<button class="btn">CANCELAR</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="configuracion.js"></script>
+</body>
+</html>

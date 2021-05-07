@@ -1,0 +1,45 @@
+.modulo {
+	width: 100%;
+	height: 25%;
+	color: white;
+	font-size: 16px;
+	border-bottom: solid 2px #000;
+}
+
+.modulo:hover {
+	color: #000;
+}
+
+.logo {
+	width: 60%;
+}
+
+.btnCerrarSesion {
+	width: 100%;
+	height: 10%;
+	border-top: solid 2px #000;
+}
+
+#controlMenuOn,
+#controlMenuOff {
+	width: 7vh;
+	height: 7vh;
+	border: solid #0d2422 .5px;
+	border-radius: 0px 0px 0px 10px;
+	position: absolute;
+	right: 0px;
+}
+
+#usuario {
+	width: 20%;
+	height: 7vh;
+	color: white;
+	border-radius: 0px 0px 10px 10px;
+	position: absolute;
+	right: 7vh;
+}
+
+.vistas {
+	width: 100%;
+	height: 100%;
+}

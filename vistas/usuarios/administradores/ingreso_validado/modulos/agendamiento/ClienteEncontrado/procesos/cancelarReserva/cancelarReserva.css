@@ -1,0 +1,109 @@
+*{margin: 0px; box-sizing: border-box;	font-family: 'Ubuntu', sans-serif;}
+
+span{
+	width: 90%;
+	height: 7vh; display: block;
+	background-color: #0d2422;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 2vh 0px; 
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	cursor: default;}
+
+#contenido{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;}	
+
+	.colaborador{
+		width: 80%;
+		height: 200px;
+		background-color: #BFD6D5;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-around;
+		padding: 20px}
+
+		.perfil{
+			width: 15%;
+			height: 95%;
+			border: groove #0d2422 3px;
+			text-align: center;}
+
+			.foto{
+				width: 100%;
+				height: 85%;}
+
+			.nombre {
+				width: 100%;
+				height: 15%;
+				background-color: #0d2422;
+				color: #fff;
+				font-weight: bold;
+				font-size: 14px;
+				padding-top: 2.5%;
+				cursor: default;}
+
+			.seleccion{
+				width: 5vh;
+				height: 5vh;
+				position: relative;
+				top: -160px;
+				right: -55%;}		
+
+		.servicios{
+			width: 75%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-content: space-around;}
+
+			.servicio{
+				width: 30%;
+				height: 20%;
+				background-color: #2C7873;
+				color: white;
+				font-weight: bold;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center; 
+				padding-left: 15px;}
+
+				.check{
+					width: 20%;
+					height: 80%;}
+
+	.cancelar{
+				width: 80%;
+				background-color: #0d2422;
+				display: flex;
+				margin-bottom: 30px;
+				padding: 20px 0px;}	
+
+				.cancelar a{
+					width: 40%;
+					display: block;
+					margin: auto;
+					padding: 10px 0px;
+					text-align: center;
+					text-decoration: none;
+					border: none;
+					background-color: #2C7873;
+					color: white;
+					font-weight: bold;
+					font-size: 18px;
+					border-radius: 10px;}
+
+					.cancelar a:hover{
+						box-shadow: 0px 0px 20px #2C7873;
+						transform: scale(1.1);
+						transition: .6s .1s;
+						cursor: pointer;}					

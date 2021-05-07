@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="inicio.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<title>CLIENTE</title>
+</head>
+<body>
+	
+	<div id="botones">
+		<button class="btn" onclick="cliente(0)">Reservar Servicios</button>
+		<button class="btn" onclick="cliente(1)">Cancelar Reservas</button>
+	</div>
+
+	<div id="vistas">
+
+		<div class="vista" id="agendamiento">
+			<iframe src="procesos/agendar/agendar.html" frameborder="0"></iframe>
+		</div>
+
+
+		<div class="vista" id="cancelarReserva">
+			<iframe src="procesos/cancelarReserva/cancelarReserva.html" frameborder="0"></iframe>
+		</div>
+		
+	</div>
+
+	<script src="inicio.js"></script>
+</body>
+</html>
